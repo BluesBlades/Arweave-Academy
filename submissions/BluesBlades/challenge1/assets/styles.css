@@ -1,0 +1,47 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: gray;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Quote styling */
+.quote-container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.quote {
+    font-size: 20px;
+    line-height: 1.6;
+    color: gray;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+/* Link styling */
+a {
+    color: gray;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Back link styling */
+.back-link {
+    margin-top: 20px;
+    font-size: 18px;
+}
